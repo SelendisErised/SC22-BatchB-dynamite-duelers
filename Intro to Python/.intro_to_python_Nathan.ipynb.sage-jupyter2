@@ -114,5 +114,5 @@
 {"cell_type":"markdown","id":"fba382","input":"In the block below, we will make a while loop that runs 5 times. For while loops, we can't specify how long they will run for ahead of time so its important for us to create an achievable exit condition. An exit condition is just the condition that will cause the code to stop running. This is checked every time, immediatly before the code runs or reruns. We want to make sure that this condition will eventually happen, otherwise the code will run until something crashes or we manually close it","metadata":{"id":"DpD_UkYBQPSN"},"pos":40,"type":"cell"}
 {"cell_type":"markdown","id":"fbbe66","input":"There are tons of different types of variables we can make. For this next section, we will ask the students to go out and figure out how to create the following types of variable: strings, floats and booleans. Once you have created these variables, try the same operations we used above and see what they do.","metadata":{"id":"-2QKfa4lQPSG"},"pos":14,"type":"cell"}
 {"cell_type":"markdown","id":"fc9628","input":"Find a built in module and use it here:","metadata":{"id":"eT8dgW5dQPSY"},"pos":108,"type":"cell"}
-{"id":0,"time":1656367224464,"type":"user"}
-{"last_load":1656389189622,"type":"file"}
+{"id":0,"time":1656434311825,"type":"user"}
+{"last_load":1656434310091,"type":"file"}

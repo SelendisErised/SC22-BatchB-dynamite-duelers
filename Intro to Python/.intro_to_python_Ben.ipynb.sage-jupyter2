@@ -113,5 +113,5 @@
 {"cell_type":"markdown","id":"fa5067","input":"You may notice that we have to call the function we need by placing it after the module connected by a dot\n\nBut many times, that is inconvenient and we can get around it like this","metadata":{"id":"3YhUswp6QPSY"},"pos":109,"type":"cell"}
 {"cell_type":"markdown","id":"fa7299","input":"First, we want to get the url of a particular image","metadata":{"id":"4B9AUzneSXS_"},"pos":87,"type":"cell"}
 {"cell_type":"markdown","id":"fc2aa3","input":"The goal of this notebook is to provide students with knowledge of the fundamentals of python. We will take a more interactive approach than most class room settings and ask the students to do some research on their own then bring their learnings back here to share with the class. \n\n","metadata":{"id":"_dO5QVgOQPR-"},"pos":1,"type":"cell"}
-{"id":0,"time":1656371445596,"type":"user"}
-{"last_load":1656371443740,"type":"file"}
+{"id":0,"time":1656443375718,"type":"user"}
+{"last_load":1656443375948,"type":"file"}
