@@ -1,159 +1,0 @@
-(base) ]0;~/SC22-BatchB-dynamite-duelers[01;34m~/SC22-BatchB-dynamite-duelers[00m$ $ ssh-keygen -t rsa -C "你的邮箱"[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kssh-keygen -t rsa -C jt3302@columbia.edu
-Generating public/private rsa key pair.
-Enter file in which to save the key (/projects/4da73662-513e-4b6e-b8bd-c9e85ea8cc88/.ssh/id_rsa): key_new.txt
-Enter passphrase (empty for no passphrase): 
-Enter same passphrase again: 
-Your identification has been saved in key_new.txt
-Your public key has been saved in key_new.txt.pub
-The key fingerprint is:
-SHA256:QGTQsUf8Jjo9EYlVHhLsTUQX2IOAanorLsON5/hckFg jt3302@columbia.edu
-The key's randomart image is:
-+---[RSA 3072]----+
-|    .+=B*B=+o.   |
-|     o+o=o+oo    |
-|   E .o..=.  .   |
-|  o +  o+ +      |
-| . =   oS+       |
-|  . o o o        |
-|. o. o . .       |
-|oo+oo            |
-| ===             |
-+----[SHA256]-----+
-(base) ]0;~/SC22-BatchB-dynamite-duelers[01;34m~/SC22-BatchB-dynamite-duelers[00m$ ls
-README.md  git_cmd.term  key_new.txt  key_new.txt.pub
-(base) ]0;~/SC22-BatchB-dynamite-duelers[01;34m~/SC22-BatchB-dynamite-duelers[00m$ git add .[K[K[K[K[K[K[K[K[Kgit add [K[K[K[K[K[K[K[Kls
-[0m[01;34m'Intro to Python'[0m   README.md   git_cmd.term   key_new.txt   key_new.txt.pub
-(base) ]0;~/SC22-BatchB-dynamite-duelers[01;34m~/SC22-BatchB-dynamite-duelers[00m$ git add Intro\ to\ Python/
-(base) ]0;~/SC22-BatchB-dynamite-duelers[01;34m~/SC22-BatchB-dynamite-duelers[00m$ git commit -m '[K"Intro to Python Update"
-
-*** Please tell me who you are.
-
-Run
-
-  git config --global user.email "you@example.com"
-  git config --global user.name "Your Name"
-
-to set your account's default identity.
-Omit --global to set the identity only in this repository.
-
-fatal: unable to auto-detect email address (got '4da73662513e4b6eb8bdc9e85ea8cc88@b18800da194e.(none)')
-(base) ]0;~/SC22-BatchB-dynamite-duelers[01;34m~/SC22-BatchB-dynamite-duelers[00m$ git cond[Kfig --global user.email jt3302@columbia.edu
-(base) ]0;~/SC22-BatchB-dynamite-duelers[01;34m~/SC22-BatchB-dynamite-duelers[00m$ git config --global user.name SelendisErised
-(base) ]0;~/SC22-BatchB-dynamite-duelers[01;34m~/SC22-BatchB-dynamite-duelers[00m$ git commit -m "Intro to Python Update"
-[main b36b3fb] Intro to Python Update
- 15 files changed, 13194 insertions(+)
- create mode 100644 Intro to Python/.intro_to_python_Ashley.ipynb.sage-jupyter2
- create mode 100644 Intro to Python/.intro_to_python_Ben.ipynb.sage-jupyter2
- create mode 100644 Intro to Python/.intro_to_python_Isabelle.ipynb.sage-jupyter2
- create mode 100644 Intro to Python/.intro_to_python_Justin.ipynb-0-jupyter.term
- create mode 100644 Intro to Python/.intro_to_python_Justin.ipynb.sage-jupyter2
- create mode 100644 Intro to Python/.intro_to_python_Nathan.ipynb.sage-jupyter2
- create mode 100644 Intro to Python/.intro_to_python_Srikar.ipynb-0-jupyter.term
- create mode 100644 Intro to Python/.intro_to_python_Srikar.ipynb.sage-chat
- create mode 100644 Intro to Python/.intro_to_python_Srikar.ipynb.sage-jupyter2
- create mode 100644 Intro to Python/intro_to_python_Ashley.ipynb
- create mode 100644 Intro to Python/intro_to_python_Ben.ipynb
- create mode 100644 Intro to Python/intro_to_python_Isabelle.ipynb
- create mode 100644 Intro to Python/intro_to_python_Justin.ipynb
- create mode 100644 Intro to Python/intro_to_python_Nathan.ipynb
- create mode 100644 Intro to Python/intro_to_python_Srikar.ipynb
-(base) ]0;~/SC22-BatchB-dynamite-duelers[01;34m~/SC22-BatchB-dynamite-duelers[00m$ git push
-Username for 'https://github.com': SelendisErised
-Password for 'https://SelendisErised@github.com': 
-remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
-remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
-fatal: Authentication failed for 'https://github.com/SelendisErised/SC22-BatchB-dynamite-duelers.git/'
-(base) ]0;~/SC22-BatchB-dynamite-duelers[01;34m~/SC22-BatchB-dynamite-duelers[00m$ git push
-Username for 'https://github.com': SelendisErised
-Password for 'https://SelendisErised@github.com': 
-remote: Permission to SelendisErised/SC22-BatchB-dynamite-duelers.git denied to SelendisErised.
-fatal: unable to access 'https://github.com/SelendisErised/SC22-BatchB-dynamite-duelers.git/': The requested URL returned error: 403
-(base) ]0;~/SC22-BatchB-dynamite-duelers[01;34m~/SC22-BatchB-dynamite-duelers[00m$ git push
-Username for 'https://github.com': SelendisErised
-Password for 'https://SelendisErised@github.com': 
-Enumerating objects: 19, done.
-Counting objects:   5% (1/19)Counting objects:  10% (2/19)Counting objects:  15% (3/19)Counting objects:  21% (4/19)Counting objects:  26% (5/19)Counting objects:  31% (6/19)Counting objects:  36% (7/19)Counting objects:  42% (8/19)Counting objects:  47% (9/19)Counting objects:  52% (10/19)Counting objects:  57% (11/19)Counting objects:  63% (12/19)Counting objects:  68% (13/19)Counting objects:  73% (14/19)Counting objects:  78% (15/19)Counting objects:  84% (16/19)Counting objects:  89% (17/19)Counting objects:  94% (18/19)Counting objects: 100% (19/19)Counting objects: 100% (19/19), done.
-Delta compression using up to 2 threads
-Compressing objects:   5% (1/17)Compressing objects:  11% (2/17)Compressing objects:  17% (3/17)Compressing objects:  23% (4/17)Compressing objects:  29% (5/17)Compressing objects:  35% (6/17)Compressing objects:  41% (7/17)Compressing objects:  47% (8/17)Compressing objects:  52% (9/17)Compressing objects:  58% (10/17)Compressing objects:  64% (11/17)Compressing objects:  70% (12/17)Compressing objects:  76% (13/17)Compressing objects:  82% (14/17)Compressing objects:  88% (15/17)Compressing objects:  94% (16/17)Compressing objects: 100% (17/17)Compressing objects: 100% (17/17), done.
-Writing objects:   5% (1/18)Writing objects:  11% (2/18)Writing objects:  16% (3/18)Writing objects:  27% (5/18)Writing objects:  33% (6/18)Writing objects:  38% (7/18)Writing objects:  44% (8/18)Writing objects:  50% (9/18)Writing objects:  55% (10/18)Writing objects:  61% (11/18)Writing objects:  66% (12/18)Writing objects:  72% (13/18)Writing objects:  83% (15/18)Writing objects:  88% (16/18)Writing objects:  94% (17/18)Writing objects: 100% (18/18)Writing objects: 100% (18/18), 1.01 MiB | 3.96 MiB/s, done.
-Total 18 (delta 9), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/9)[Kremote: Resolving deltas:  11% (1/9)[Kremote: Resolving deltas:  22% (2/9)[Kremote: Resolving deltas:  33% (3/9)[Kremote: Resolving deltas:  44% (4/9)[Kremote: Resolving deltas:  55% (5/9)[Kremote: Resolving deltas:  66% (6/9)[Kremote: Resolving deltas:  77% (7/9)[Kremote: Resolving deltas:  88% (8/9)[Kremote: Resolving deltas: 100% (9/9)[Kremote: Resolving deltas: 100% (9/9), done.[K
-To https://github.com/SelendisErised/SC22-BatchB-dynamite-duelers.git
-   265f750..b36b3fb  main -> main
-(base) ]0;~/SC22-BatchB-dynamite-duelers[01;34m~/SC22-BatchB-dynamite-duelers[00m$ ls
-[0m[01;34m'Intro to Python'[0m   README.md   git_cmd.term   key_new.txt   key_new.txt.pub
-(base) ]0;~/SC22-BatchB-dynamite-duelers[01;34m~/SC22-BatchB-dynamite-duelers[00m$ git pull
-Already up to date.
-(base) ]0;~/SC22-BatchB-dynamite-duelers[01;34m~/SC22-BatchB-dynamite-duelers[00m$ git add .
-(base) ]0;~/SC22-BatchB-dynamite-duelers[01;34m~/SC22-BatchB-dynamite-duelers[00m$ git commit -m "1st day update"
-[main a440382] 1st day update
- 4 files changed, 124 insertions(+)
- create mode 100644 .git_cmd.term-0.term
- create mode 100644 git_cmd.term
- create mode 100644 key_new.txt
- create mode 100644 key_new.txt.pub
-(base) ]0;~/SC22-BatchB-dynamite-duelers[01;34m~/SC22-BatchB-dynamite-duelers[00m$ git push
-Username for 'https://github.com': SelendisErised
-Password for 'https://SelendisErised@github.com': 
-Enumerating objects: 6, done.
-Counting objects:  16% (1/6)Counting objects:  33% (2/6)Counting objects:  50% (3/6)Counting objects:  66% (4/6)Counting objects:  83% (5/6)Counting objects: 100% (6/6)Counting objects: 100% (6/6), done.
-Delta compression using up to 2 threads
-Compressing objects:  20% (1/5)Compressing objects:  40% (2/5)Compressing objects:  60% (3/5)Compressing objects:  80% (4/5)Compressing objects: 100% (5/5)Compressing objects: 100% (5/5), done.
-Writing objects:  20% (1/5)Writing objects:  40% (2/5)Writing objects:  60% (3/5)Writing objects:  80% (4/5)Writing objects: 100% (5/5)Writing objects: 100% (5/5), 4.60 KiB | 4.60 MiB/s, done.
-Total 5 (delta 0), reused 0 (delta 0)
-To https://github.com/SelendisErised/SC22-BatchB-dynamite-duelers.git
-   b36b3fb..a440382  main -> main
-(base) ]0;~/SC22-BatchB-dynamite-duelers[01;34m~/SC22-BatchB-dynamite-duelers[00m$ ls
-[0m[01;34m'Intro to Python'[0m   README.md   git_cmd.term   key_new.txt   key_new.txt.pub
-(base) ]0;~/SC22-BatchB-dynamite-duelers[01;34m~/SC22-BatchB-dynamite-duelers[00m$ (base) ]0;~/SC22-BatchB-dynamite-duelers[01;34m~/SC22-BatchB-dynamite-duelers[00m$ (base) ]0;~/SC22-BatchB-dynamite-duelers[01;34m~/SC22-BatchB-dynamite-duelers[00m$ 
-(base) ]0;~/SC22-BatchB-dynamite-duelers[01;34m~/SC22-BatchB-dynamite-duelers[00m$ 
-(base) ]0;~/SC22-BatchB-dynamite-duelers[01;34m~/SC22-BatchB-dynamite-duelers[00m$ 
-(base) ]0;~/SC22-BatchB-dynamite-duelers[01;34m~/SC22-BatchB-dynamite-duelers[00m$ 
-(base) ]0;~/SC22-BatchB-dynamite-duelers[01;34m~/SC22-BatchB-dynamite-duelers[00m$ 
-(base) ]0;~/SC22-BatchB-dynamite-duelers[01;34m~/SC22-BatchB-dynamite-duelers[00m$ 
-(base) ]0;~/SC22-BatchB-dynamite-duelers[01;34m~/SC22-BatchB-dynamite-duelers[00m$ 
-(base) ]0;~/SC22-BatchB-dynamite-duelers[01;34m~/SC22-BatchB-dynamite-duelers[00m$ git pull
-remote: Enumerating objects: 5, done.[K
-remote: Counting objects:  20% (1/5)[Kremote: Counting objects:  40% (2/5)[Kremote: Counting objects:  60% (3/5)[Kremote: Counting objects:  80% (4/5)[Kremote: Counting objects: 100% (5/5)[Kremote: Counting objects: 100% (5/5), done.[K
-remote: Compressing objects:  25% (1/4)[Kremote: Compressing objects:  50% (2/4)[Kremote: Compressing objects:  75% (3/4)[Kremote: Compressing objects: 100% (4/4)[Kremote: Compressing objects: 100% (4/4), done.[K
-remote: Total 4 (delta 2), reused 0 (delta 0), pack-reused 0[K
-Unpacking objects:  25% (1/4)Unpacking objects:  50% (2/4)Unpacking objects:  75% (3/4)Unpacking objects: 100% (4/4)Unpacking objects: 100% (4/4), 1.19 KiB | 608.00 KiB/s, done.
-From https://github.com/SelendisErised/SC22-BatchB-dynamite-duelers
-   a440382..afc72b2  main       -> origin/main
-Updating a440382..afc72b2
-Fast-forward
- key_new.txt     | 38 [31m--------------------------------------[m
- key_new.txt.pub |  1 [31m-[m
- 2 files changed, 39 deletions(-)
- delete mode 100644 key_new.txt
- delete mode 100644 key_new.txt.pub
-(base) ]0;~/SC22-BatchB-dynamite-duelers[01;34m~/SC22-BatchB-dynamite-duelers[00m$ git add .
-(base) ]0;~/SC22-BatchB-dynamite-duelers[01;34m~/SC22-BatchB-dynamite-duelers[00m$ git commit -m "2nd day update[K[K[K[K[K[K[K[K[K[K[K[K[K[Kmini project"
-[main d1c4597] mini project
- 8 files changed, 1442 insertions(+), 5 deletions(-)
- create mode 100644 Mastermind/.Mastermind_Isabelle_Ashley_Nathan.ipynb.sage-jupyter2
- create mode 100644 Mastermind/.Mastermind_Srikar_Ben_Justin.ipynb.sage-chat
- create mode 100644 Mastermind/.Mastermind_Srikar_Ben_Justin.ipynb.sage-jupyter2
- create mode 100644 Mastermind/Mastermind_Isabelle_Ashley_Nathan.ipynb
- create mode 100644 Mastermind/Mastermind_Srikar_Ben_Justin.ipynb
-(base) ]0;~/SC22-BatchB-dynamite-duelers[01;34m~/SC22-BatchB-dynamite-duelers[00m$ git push
-Username for 'https://github.com': Erised      SelendisErised
-Password for 'https://SelendisErised@github.com': 
-Enumerating objects: 15, done.
-Counting objects:   6% (1/15)Counting objects:  13% (2/15)Counting objects:  20% (3/15)Counting objects:  26% (4/15)Counting objects:  33% (5/15)Counting objects:  40% (6/15)Counting objects:  46% (7/15)Counting objects:  53% (8/15)Counting objects:  60% (9/15)Counting objects:  66% (10/15)Counting objects:  73% (11/15)Counting objects:  80% (12/15)Counting objects:  86% (13/15)Counting objects:  93% (14/15)Counting objects: 100% (15/15)Counting objects: 100% (15/15), done.
-Delta compression using up to 2 threads
-Compressing objects:   9% (1/11)Compressing objects:  18% (2/11)Compressing objects:  27% (3/11)Compressing objects:  36% (4/11)Compressing objects:  45% (5/11)Compressing objects:  54% (6/11)Compressing objects:  63% (7/11)Compressing objects:  72% (8/11)Compressing objects:  81% (9/11)Compressing objects:  90% (10/11)Compressing objects: 100% (11/11)Compressing objects: 100% (11/11), done.
-Writing objects:   9% (1/11)Writing objects:  18% (2/11)Writing objects:  27% (3/11)Writing objects:  36% (4/11)Writing objects:  45% (5/11)Writing objects:  54% (6/11)Writing objects:  63% (7/11)Writing objects:  72% (8/11)Writing objects:  90% (10/11)Writing objects: 100% (11/11)Writing objects: 100% (11/11), 15.08 KiB | 3.77 MiB/s, done.
-Total 11 (delta 6), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/6)[Kremote: Resolving deltas:  16% (1/6)[Kremote: Resolving deltas:  33% (2/6)[Kremote: Resolving deltas:  50% (3/6)[Kremote: Resolving deltas:  66% (4/6)[Kremote: Resolving deltas:  83% (5/6)[Kremote: Resolving deltas: 100% (6/6)[Kremote: Resolving deltas: 100% (6/6), completed with 3 local objects.[K
-To https://github.com/SelendisErised/SC22-BatchB-dynamite-duelers.git
-   afc72b2..d1c4597  main -> main
-(base) ]0;~/SC22-BatchB-dynamite-duelers[01;34m~/SC22-BatchB-dynamite-duelers[00m$ (base) ]0;~/SC22-BatchB-dynamite-duelers[01;34m~/SC22-BatchB-dynamite-duelers[00m$ (base) ]0;~/SC22-BatchB-dynamite-duelers[01;34m~/SC22-BatchB-dynamite-duelers[00m$ (base) ]0;~/SC22-BatchB-dynamite-duelers[01;34m~/SC22-BatchB-dynamite-duelers[00m$ 
-(base) ]0;~/SC22-BatchB-dynamite-duelers[01;34m~/SC22-BatchB-dynamite-duelers[00m$ 
-(base) ]0;~/SC22-BatchB-dynamite-duelers[01;34m~/SC22-BatchB-dynamite-duelers[00m$ 
-(base) ]0;~/SC22-BatchB-dynamite-duelers[01;34m~/SC22-BatchB-dynamite-duelers[00m$ git pull
-Already up to date.
-(base) ]0;~/SC22-BatchB-dynamite-duelers[01;34m~/SC22-BatchB-dynamite-duelers[00m$ git add .[KCNN
-(base) ]0;~/SC22-BatchB-dynamite-duelers[01;34m~/SC22-BatchB-dynamite-duelers[00m$ it [K[K[Kgit add digit cs[Klassifier[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[KDigit Classifier
-fatal: pathspec 'Digit' did not match any files
-(base) ]0;~/SC22-BatchB-dynamite-duelers[01;34m~/SC22-BatchB-dynamite-duelers[00m$ g
