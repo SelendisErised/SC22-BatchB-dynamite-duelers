@@ -106,3 +106,54 @@ To https://github.com/SelendisErised/SC22-BatchB-dynamite-duelers.git
 (base) ]0;~/SC22-BatchB-dynamite-duelers[01;34m~/SC22-BatchB-dynamite-duelers[00m$ ls
 [0m[01;34m'Intro to Python'[0m   README.md   git_cmd.term   key_new.txt   key_new.txt.pub
 (base) ]0;~/SC22-BatchB-dynamite-duelers[01;34m~/SC22-BatchB-dynamite-duelers[00m$ (base) ]0;~/SC22-BatchB-dynamite-duelers[01;34m~/SC22-BatchB-dynamite-duelers[00m$ (base) ]0;~/SC22-BatchB-dynamite-duelers[01;34m~/SC22-BatchB-dynamite-duelers[00m$ 
+(base) ]0;~/SC22-BatchB-dynamite-duelers[01;34m~/SC22-BatchB-dynamite-duelers[00m$ 
+(base) ]0;~/SC22-BatchB-dynamite-duelers[01;34m~/SC22-BatchB-dynamite-duelers[00m$ 
+(base) ]0;~/SC22-BatchB-dynamite-duelers[01;34m~/SC22-BatchB-dynamite-duelers[00m$ 
+(base) ]0;~/SC22-BatchB-dynamite-duelers[01;34m~/SC22-BatchB-dynamite-duelers[00m$ 
+(base) ]0;~/SC22-BatchB-dynamite-duelers[01;34m~/SC22-BatchB-dynamite-duelers[00m$ 
+(base) ]0;~/SC22-BatchB-dynamite-duelers[01;34m~/SC22-BatchB-dynamite-duelers[00m$ 
+(base) ]0;~/SC22-BatchB-dynamite-duelers[01;34m~/SC22-BatchB-dynamite-duelers[00m$ git pull
+remote: Enumerating objects: 5, done.[K
+remote: Counting objects:  20% (1/5)[Kremote: Counting objects:  40% (2/5)[Kremote: Counting objects:  60% (3/5)[Kremote: Counting objects:  80% (4/5)[Kremote: Counting objects: 100% (5/5)[Kremote: Counting objects: 100% (5/5), done.[K
+remote: Compressing objects:  25% (1/4)[Kremote: Compressing objects:  50% (2/4)[Kremote: Compressing objects:  75% (3/4)[Kremote: Compressing objects: 100% (4/4)[Kremote: Compressing objects: 100% (4/4), done.[K
+remote: Total 4 (delta 2), reused 0 (delta 0), pack-reused 0[K
+Unpacking objects:  25% (1/4)Unpacking objects:  50% (2/4)Unpacking objects:  75% (3/4)Unpacking objects: 100% (4/4)Unpacking objects: 100% (4/4), 1.19 KiB | 608.00 KiB/s, done.
+From https://github.com/SelendisErised/SC22-BatchB-dynamite-duelers
+   a440382..afc72b2  main       -> origin/main
+Updating a440382..afc72b2
+Fast-forward
+ key_new.txt     | 38 [31m--------------------------------------[m
+ key_new.txt.pub |  1 [31m-[m
+ 2 files changed, 39 deletions(-)
+ delete mode 100644 key_new.txt
+ delete mode 100644 key_new.txt.pub
+(base) ]0;~/SC22-BatchB-dynamite-duelers[01;34m~/SC22-BatchB-dynamite-duelers[00m$ git add .
+(base) ]0;~/SC22-BatchB-dynamite-duelers[01;34m~/SC22-BatchB-dynamite-duelers[00m$ git commit -m "2nd day update[K[K[K[K[K[K[K[K[K[K[K[K[K[Kmini project"
+[main d1c4597] mini project
+ 8 files changed, 1442 insertions(+), 5 deletions(-)
+ create mode 100644 Mastermind/.Mastermind_Isabelle_Ashley_Nathan.ipynb.sage-jupyter2
+ create mode 100644 Mastermind/.Mastermind_Srikar_Ben_Justin.ipynb.sage-chat
+ create mode 100644 Mastermind/.Mastermind_Srikar_Ben_Justin.ipynb.sage-jupyter2
+ create mode 100644 Mastermind/Mastermind_Isabelle_Ashley_Nathan.ipynb
+ create mode 100644 Mastermind/Mastermind_Srikar_Ben_Justin.ipynb
+(base) ]0;~/SC22-BatchB-dynamite-duelers[01;34m~/SC22-BatchB-dynamite-duelers[00m$ git push
+Username for 'https://github.com': Erised      SelendisErised
+Password for 'https://SelendisErised@github.com': 
+Enumerating objects: 15, done.
+Counting objects:   6% (1/15)Counting objects:  13% (2/15)Counting objects:  20% (3/15)Counting objects:  26% (4/15)Counting objects:  33% (5/15)Counting objects:  40% (6/15)Counting objects:  46% (7/15)Counting objects:  53% (8/15)Counting objects:  60% (9/15)Counting objects:  66% (10/15)Counting objects:  73% (11/15)Counting objects:  80% (12/15)Counting objects:  86% (13/15)Counting objects:  93% (14/15)Counting objects: 100% (15/15)Counting objects: 100% (15/15), done.
+Delta compression using up to 2 threads
+Compressing objects:   9% (1/11)Compressing objects:  18% (2/11)Compressing objects:  27% (3/11)Compressing objects:  36% (4/11)Compressing objects:  45% (5/11)Compressing objects:  54% (6/11)Compressing objects:  63% (7/11)Compressing objects:  72% (8/11)Compressing objects:  81% (9/11)Compressing objects:  90% (10/11)Compressing objects: 100% (11/11)Compressing objects: 100% (11/11), done.
+Writing objects:   9% (1/11)Writing objects:  18% (2/11)Writing objects:  27% (3/11)Writing objects:  36% (4/11)Writing objects:  45% (5/11)Writing objects:  54% (6/11)Writing objects:  63% (7/11)Writing objects:  72% (8/11)Writing objects:  90% (10/11)Writing objects: 100% (11/11)Writing objects: 100% (11/11), 15.08 KiB | 3.77 MiB/s, done.
+Total 11 (delta 6), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/6)[Kremote: Resolving deltas:  16% (1/6)[Kremote: Resolving deltas:  33% (2/6)[Kremote: Resolving deltas:  50% (3/6)[Kremote: Resolving deltas:  66% (4/6)[Kremote: Resolving deltas:  83% (5/6)[Kremote: Resolving deltas: 100% (6/6)[Kremote: Resolving deltas: 100% (6/6), completed with 3 local objects.[K
+To https://github.com/SelendisErised/SC22-BatchB-dynamite-duelers.git
+   afc72b2..d1c4597  main -> main
+(base) ]0;~/SC22-BatchB-dynamite-duelers[01;34m~/SC22-BatchB-dynamite-duelers[00m$ (base) ]0;~/SC22-BatchB-dynamite-duelers[01;34m~/SC22-BatchB-dynamite-duelers[00m$ (base) ]0;~/SC22-BatchB-dynamite-duelers[01;34m~/SC22-BatchB-dynamite-duelers[00m$ (base) ]0;~/SC22-BatchB-dynamite-duelers[01;34m~/SC22-BatchB-dynamite-duelers[00m$ 
+(base) ]0;~/SC22-BatchB-dynamite-duelers[01;34m~/SC22-BatchB-dynamite-duelers[00m$ 
+(base) ]0;~/SC22-BatchB-dynamite-duelers[01;34m~/SC22-BatchB-dynamite-duelers[00m$ 
+(base) ]0;~/SC22-BatchB-dynamite-duelers[01;34m~/SC22-BatchB-dynamite-duelers[00m$ git pull
+Already up to date.
+(base) ]0;~/SC22-BatchB-dynamite-duelers[01;34m~/SC22-BatchB-dynamite-duelers[00m$ git add .[KCNN
+(base) ]0;~/SC22-BatchB-dynamite-duelers[01;34m~/SC22-BatchB-dynamite-duelers[00m$ it [K[K[Kgit add digit cs[Klassifier[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[KDigit Classifier
+fatal: pathspec 'Digit' did not match any files
+(base) ]0;~/SC22-BatchB-dynamite-duelers[01;34m~/SC22-BatchB-dynamite-duelers[00m$ g
